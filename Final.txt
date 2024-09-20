@@ -1,0 +1,39 @@
+Title: Gunnar Bozentko // 11 A.M. Paone // Air Hockey Game
+
+Problem Description: I will create a program that allows two different players to play air hockey 
+against each other on the same computer. One player will use the WASD keys to control the top paddle,
+and the other player will use the arrow keys to control the bottom paddle. I want the game to go to 
+3 points and keep track of what player wins using an output file. The window will automatically close 
+after a player makes it to 3 points. The puck will speed up when the player hits the ball.
+
+Program Documentation: The main thing that is needed to run my program is that SFML must be used.
+Besides that, the program is very user friendly. When it is run, the window pops up automatically
+and the game starts. If I had more time I wouldv'e implemented other types of game modes for my 
+program. I also would have liked to added a visual score so you could see what score you were at
+while playing the game. There were some minor changes from my original proposal where i originally
+planned on asking the user to play agin, but i figured running the program done gets the same job
+done so it was not necessary to use it. I added the output text file which stores the scores which 
+was different from my original plan to record it in the SFML window. This was necessary so I could
+keep the scores saved over time.
+
+Class Description: I created 2 classes, which were the puck and the paddle. The puck stores the position
+and speed of the puck, as well as using getters and setters to manipulate the speed of the puck. The paddle
+also had a velocity vector as well as a shape so it could draw the paddle as it moved. These classes
+made the functionality of the program way easier so I could use them to implement it into the main.cpp.
+
+List Data Structure: I used Vector data structures. It was necessary when holding the information
+fpr the position and velocity for several components of my code including position and velocity. I
+chose to use vectors as they are easy to manipulate within my class to change the veclocity and position.
+
+File I/O: File output was used when recording the scores of the game, it was necessary to tell the
+user the score of the game and who won.
+
+Reflections: What I learned from this project was how to efficiently use SFML and organize the contents
+within my main.cpp to be able to run the program smoothly. I also learned how to implement an output file
+within my SFML main to use it to record my scores. I also deepened my learning on classes and vectors by
+learning how to manipulate the class to return the elements in the vector using getters and setters.
+Overall, this project really tested my ability to implement what I had learned since the beginning of the 
+class and te it all together. If I had to do another project, I think I would try to make a better plan
+of how to start. For example I got stuck after making my classes beccause I didnt know how to implement
+them at frst. If I had started with the SFML window from there and then added my class objects to the
+SFML window it would have been easier to figure out how to start.
